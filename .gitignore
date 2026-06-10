@@ -1,0 +1,22 @@
+# Datasets e arquivos grandes (não versionar no Git)
+*.tar
+enoe/
+enoe_organizado/
+
+# Pesos de modelo (excedem o limite de 100 MB do GitHub — usar LFS/Drive)
+*.pth
+*.pt
+*.ckpt
+*.h5
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Sistema / segredos
+.DS_Store
+.env
+*.log
